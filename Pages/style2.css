@@ -1,0 +1,167 @@
+/*font-family: 'Noto Serif', serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Lobster', cursive;*/
+.logo{
+	height: 50%;
+	width: 100px;
+	margin: 20px 20px;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between; 
+	align-items: center;
+}
+
+.menu{
+	display: flex;
+	font-size: 40px;
+	font-family: 'Lobster', cursive;
+}
+
+.menu li{
+	padding: 0px 30px;
+	margin-top:20px;
+	color: black;
+}
+
+.images{
+	position: relative;
+   display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: 50vh;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  object-fit: cover;
+	background-color: rgb(209,189,164);
+}
+
+.appareil{
+  grid-column: 1;
+  grid-row: 1;
+  background-position: center;
+}
+
+.avion{ 
+  grid-column: 2;
+  grid-row: 1 ;
+  background-position: center;
+}
+
+.ville{
+  grid-column: 3;
+  grid-row: 1;
+   background-position: center;
+}
+
+.marcher{
+	
+	grid-column: 1;
+  grid-row: 2;
+  background-position: center;
+}
+
+.map{
+	
+	grid-column: 2;
+	grid-row: 2;
+	background-position: center;
+}
+
+.objectif{
+	
+  grid-column: 3;
+  grid-row: 2;
+  background-position: center;
+}
+
+.berlin{
+	
+  grid-column: 1;
+  grid-row: 3 ;
+  background-position: center;
+}
+
+.paris{
+	
+  grid-column: 2;
+  grid-row: 3;
+  background-position: center;
+}
+
+.touriste{
+	
+  grid-column: 3;
+  grid-row: 3;
+  background-position: center;
+}
+
+.img img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: all 0.3s ease-in-out;
+}
+
+.anim{
+	position: relative;
+}
+
+.anim:hover img{
+	filter: opacity(30%);
+}
+
+.anim:hover h5{
+	opacity: 1;	
+}
+
+h5{
+	opacity: 0;
+	font-family: 'Lobster', cursive;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	transition: all 0.3s ease-in-out;
+}
+
+.tous{
+	position: absolute;
+	font-size: 30px;
+
+}
+
+.menu a:hover li{
+	color: rgb(209,189,164);
+	transition: all 0.3s ease-in-out;
+}
+
+.load{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	font-size: 30px;
+	color: rgb(209,189,164);
+	border-top: solid 1px black;
+}
+
+.icone{
+	text-align: center;
+	color: rgb(209,189,164);
+}
+
+.copy{
+	text-align: center;
+	color: rgb(209,189,164);
+	padding-bottom: 10px;
+}
+
+
+
+
+
+

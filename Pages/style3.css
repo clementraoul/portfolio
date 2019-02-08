@@ -1,0 +1,100 @@
+/*font-family: 'Noto Serif', serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Lobster', cursive;*/
+.logo{
+	height: 50%;
+	width: 100px;
+	margin: 20px 20px;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between; 
+	align-items: center;
+}
+
+.menu{
+	display: flex;
+	font-size: 40px;
+	font-family: 'Lobster', cursive;
+}
+
+.menu li{
+	padding: 0px 30px;
+	margin-top:20px;
+	color: black;
+}
+
+.menu a:hover li{
+	color: rgb(209,189,164);
+	transition: all 0.3s ease-in-out;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.texte{
+	display: inline-flex;
+	background-color: rgb(209,189,164);
+	width: 100vw;
+}
+
+.titre-inte{
+	font-size: 50px;
+	padding-bottom: 30px;
+}
+
+.suite-inte{
+	font-size: 20px;
+}
+
+.cds{
+	font-size: 20px;
+	width: 30%;
+	padding: 70px;
+}
+
+.integration{
+	width: 70%;
+	padding: 70px;
+
+}
+
+.c{
+	padding-top: 75px;
+}
+
+
+.icone{
+	text-align: center;
+	color: rgb(209,189,164);
+	padding-top: 50px;
+}
+
+.copy{
+	text-align: center;
+	color: rgb(209,189,164);
+	padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
